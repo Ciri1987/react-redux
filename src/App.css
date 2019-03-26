@@ -1,33 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./blackboard.jpeg");
+  background-attachment: scroll;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 700;
+  font-size: 25px;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 100px;
+
+}
+
+.votes {
+  background-color: rgba(255, 255, 255, 0.24);
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.comments {
+  list-style-type: none;
+  padding: 20px;
+
+}
+
+.up,
+.down,
+.remove {
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: lightblue;
+  font-weight: 700;
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-right: 10px;
+}
+
+.down {
+  background-color: rgb(226, 118, 118);
+}
+
+.remove {
+  background-color: rgb(129, 12, 12);
   color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

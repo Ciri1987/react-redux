@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import CommentList from './CommentsList'
 
 const App = () => {
   return (
     <div className="App">
-      LISTA KOMETNARZY
+      <CommentList />
     </div>
   );
 };
